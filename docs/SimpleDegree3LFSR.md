@@ -85,6 +85,8 @@ From m degree LFSR maximum cycle which is possible is 2^m -1 ie for m = 3 maximu
 State of all Zero's ie [0][0][0] is not possible and getting that state will never allow a any other output.
 
 - ### Therom 2 ###
-only certain configuration of XOR or in mathematical certain configurations of multipliers or switches result in maximum length cycle for LFSR.
+only certain configuration of XOR or in mathematical terms certain configurations of multipliers or switches result in maximum length cycle for LFSR.
 
 There is something called Primitive polynomials, so if XOR configuration is as per primitive polynomials then we get the maximum length cycle.
+
+[Code for 3 Flip Flop Setup](https://github.com/SasanLabs/SasanCiphers/blob/master/src/org/sasanlabs/ciphers/stream/random/SimpleDegree3LFSR.java)
