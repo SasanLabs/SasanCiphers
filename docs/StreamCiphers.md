@@ -1,6 +1,7 @@
 # Stream Ciphers #
+Stream Cipher works on Stream of Bits and each plaintext bit is encrypted one at a time with the corresponding bit of the keystream, to give a bit of the ciphertext stream.
 
-As we know one time pad is a very good cipher but practically it is very difficult to use due to the issue of Key should be of same length as plain text.
+As we know One Time Pad is perfect cipher but practically it is very difficult to use due to the issue of Key should be of same length as plain text.
 
 ## Truth table of XOR ##
 
