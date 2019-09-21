@@ -14,6 +14,16 @@ public class SimpleDegree3LFSR {
 
 	private int[] multiplier = { 0, 1, 1 };
 
+	/** Length 4 **/
+/*	private int[] initialState = { 1, 0, 0, 0 };
+
+	private int[] multiplier = {0, 0, 1, 1 };
+*/
+	/** Lenght 5 **/
+/*	private int[] initialState = { 1, 0, 0, 0, 0 };
+
+	private int[] multiplier = {0, 0, 1, 0, 1 };
+*/
 	public int getNextState() {
 		int value = initialState[initialState.length - 1];
 		int xorValue = 0;
