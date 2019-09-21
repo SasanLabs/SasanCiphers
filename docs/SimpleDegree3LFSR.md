@@ -102,6 +102,9 @@ Mathematical equation for LFSR :-
 
 Attack :-
 ``` 
-Say Oscar knows Entire Cipher text and first 2*m bits of plaintext (Because headers of file which contains information about the version/format etc).
-now from the equation above we have m unknowns which is p's and we have m equations so we can easily compute the p's and hence we can compute the entire s(i)'s.
+Say Oscar knows Entire Cipher text and first 2*m bits of plaintext 
+(Because headers of file which contains information about the version/format etc).
+now from the equation above we have m unknowns which is p's and 
+we have m equations so we can easily compute the p's and 
+hence we can compute the entire s(i)'s.
 ```
