@@ -94,3 +94,14 @@ There is something called Primitive polynomials, so if XOR configuration is as p
 ## Cryptanalysis of LFSR  ##
 - Using large number of Flip Flops can give a Statistically Secure Pseudo Random Number sequence but it is not cryptographically secure.
 
+- ### Proof ###
+Mathematical equation for LFSR :-
+1. say p(i) denotes the switch/multiplier and it can have 2 values 0 or 1.
+2. say s(i) denotes the ith key bit.
+3. s(m) = s(m-1)*p(m-1) + s(m-2)*p(m-2) + .... + s(0)*p(0)
+
+Attack :-
+``` 
+Say Oscar knows Entire Cipher text and first 2*m bits of plaintext (Because headers of file which contains information about the version/format etc).
+now from the equation above we have m unknowns which is p's and we have m equations so we can easily compute the p's and hence we can compute the entire s(i)'s.
+```
