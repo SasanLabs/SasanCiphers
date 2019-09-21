@@ -57,6 +57,34 @@ Next State :-
 
 ```
 
-If we add XOR's as shown above then output from 3rd flip flop will be 0 -> 0 -> 1 -> 1 ->
+In above state we got the cycle of 4 but it is not sufficient and as we know for 3 flipflops we can get more cycle.
 
+- ### Adding XOR at proper position ###
+```
+                XOR
+_________________^_________
+|                |        |
+|                |        |
+|                |        |
+--> [1] --> [0] --> [0] -->
 
+Next State :-
+[1] --> [0] --> [0]
+[0] --> [1] --> [0]
+[1] --> [0] --> [1]
+[1] --> [1] --> [0]
+[1] --> [1] --> [1]
+[0] --> [1] --> [1]
+[0] --> [0] --> [1]
+[1] --> [0] --> [0]
+
+```
+- ### Theorm 1 ###
+From m degree LFSR maximum cycle which is possible is 2^m -1 ie for m = 3 maximum cycle length we get is 7. 
+- #### Which state is not there ####
+State of all Zero's ie [0][0][0] is not possible and getting that state will never allow a any other output.
+
+- ### Therom 2 ###
+only certain configuration of XOR or in mathematical certain configurations of multipliers or switches result in maximum length cycle for LFSR.
+
+There is something called Primitive polynomials, so if XOR configuration is as per primitive polynomials then we get the maximum length cycle.
