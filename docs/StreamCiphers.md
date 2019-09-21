@@ -38,7 +38,7 @@ XOR plaintext with Key bits generated from PRNG.
 
 Various ways of Generating Key bits using Pseudo Random Number Generator are :-
 ``` 
-1. Linear Congruntials 
+1. Linear Congruential Generator 
 2. LFSR
 3. others
 ```
