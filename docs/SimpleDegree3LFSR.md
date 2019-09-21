@@ -22,7 +22,7 @@ Clock Value |Input Value | Output Value
 from above we can conclude when ever Clock input is 1, input is stored in Register/Flip Flop and output is the stored value and it will 
 remain same until Clock input becomes 1 and input value is changed.
 
--  ### Simple Attaching 3 Flip Flops and a FeedBack### 
+-  ### Simple Attaching 3 Flip Flops and a FeedBack ### 
 
 Attaching 3 Flip Flops with Initial State specified in Brackets :-
 ```
