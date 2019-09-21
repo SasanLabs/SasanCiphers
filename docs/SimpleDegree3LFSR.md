@@ -82,7 +82,7 @@ Next State :-
 - ### Theorm 1 ###
 From m degree LFSR maximum cycle which is possible is 2^m -1 ie for m = 3 maximum cycle length we get is 7. 
 - #### Which state is not there ####
-State of all Zero's ie [0][0][0] is not possible and getting that state will never allow a any other output.
+State of all Zero's ie [0][0][0] is not possible and getting that state will never allow any other output.
 
 - ### Therom 2 ###
 only certain configuration of XOR or in mathematical terms certain configurations of multipliers or switches result in maximum length cycle for LFSR.
