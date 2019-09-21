@@ -90,3 +90,7 @@ only certain configuration of XOR or in mathematical terms certain configuration
 There is something called Primitive polynomials, so if XOR configuration is as per primitive polynomials then we get the maximum length cycle.
 
 [Code for 3 Flip Flop Setup](https://github.com/SasanLabs/SasanCiphers/blob/master/src/org/sasanlabs/ciphers/stream/random/SimpleDegree3LFSR.java)
+
+## Cryptanalysis of LFSR  ##
+- Using large number of Flip Flops can give a Statistically Secure Pseudo Random Number sequence but it is not cryptographically secure.
+
