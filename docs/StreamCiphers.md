@@ -37,6 +37,6 @@ we need somthing like a ``` Pseudo Random Number Generator(PRNG) ``` to generate
 XOR plaintext with Key bits generated from PRNG.
 
 Various ways of Generating Key bits using Pseudo Random Number Generator are :-
-Markup: * Linear Congruntials 
-        * LFSR
-        * others
+Markup : 1. Linear Congruntials 
+        2. LFSR
+        3. others
