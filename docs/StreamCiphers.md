@@ -1,4 +1,4 @@
-# Linear FeedBack Shift Register #
+# Stream Ciphers #
 
 As we know one time pad is a very good cipher but practically it is very difficult to use due to the issue of Key should be of same length as plain text.
 
