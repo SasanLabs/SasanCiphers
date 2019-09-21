@@ -3,7 +3,7 @@ package org.sasanlabs.ciphers.stream.random;
 /**
  * @author KSASAN preetkaran20@gmail.com
  * 
- *         Implementation of Simple degree 3 Single Linear Feedback Shift
+ *         Implementation of Simple degree 3 Linear Feedback Shift
  *         Register {@see <a
  *         href=https://github.com/SasanLabs/SasanCiphers/blob/master/docs/SimpleDegree3LFSR.md>More
  *         Information</a>}
