@@ -35,3 +35,8 @@ what is the solution ?
 ```
 we need somthing like a ``` Pseudo Random Number Generator(PRNG) ``` to generate Key bit length equal to Plain Text length from a Small key and then 
 XOR plaintext with Key bits generated from PRNG.
+
+Various ways of Generating Key bits using Pseudo Random Number Generator are :-
+Markup: * Linear Congruntials 
+        * LFSR
+        * others
