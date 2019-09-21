@@ -22,14 +22,41 @@ Clock Value |Input Value | Output Value
 from above we can conclude when ever Clock input is 1, input is stored in Register/Flip Flop and output is the stored value and it will 
 remain same until Clock input becomes 1 and input value is changed.
 
--  ### Simple Attaching 3 Flip Flops ### 
+-  ### Simple Attaching 3 Flip Flops and a FeedBack### 
 
 Attaching 3 Flip Flops with Initial State specified in Brackets :-
 ```
---------------------------|
+___________________________
 |                         |
 |                         |
 |                         |
 --> [1] --> [0] --> [0] -->
 ```
 In above case if we give Clock at each interval then output from 3rd flip flop will be 0 -> 0 -> 1 -> and then same cycle repeats.
+From 3 Flip Flops we can get 8 outputs in combinations but from above we are getting a cycle of 3 ie number of flip flops and 
+it is not very useful.
+
+- ### Adding XOR Gate ###
+```
+       XOR      XOR
+________^________^_________
+|       |        |        |
+|       |        |        |
+|       |        |        |
+--> [1] --> [0] --> [0] -->
+
+Next State :-
+[1] --> [0] --> [0]
+[1] --> [1] --> [0]
+[0] --> [1] --> [1]
+[0] --> [0] --> [1]
+[1] --> [0] --> [0]
+[1] --> [1] --> [0]
+[0] --> [1] --> [1]
+[0] --> [0] --> [1]
+
+```
+
+If we add XOR's as shown above then output from 3rd flip flop will be 0 -> 0 -> 1 -> 1 ->
+
+
