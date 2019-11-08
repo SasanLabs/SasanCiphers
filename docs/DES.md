@@ -18,3 +18,9 @@ Rounds : 16
 
 ### Fiestle Networks ###
 ![Fiestle Networks](https://github.com/SasanLabs/SasanCiphers/blob/master/docs/FiestleNetworks.png)
+
+if you look into Fiestle network, you will find that it divides the block into 2 parts say Left and Right part. In a round only one part is encrypted/decrypted and other part remains same and in next round other part is encrypted and vice-versa. 
+
+Many algorithms are based on Fiestle networks.
+
+### DES High level block diagram ###
