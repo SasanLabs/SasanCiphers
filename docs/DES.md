@@ -28,3 +28,11 @@ Many algorithms are based on Fiestle networks.
 
 ### F Function Internals ###
 ![F Function Internals](https://github.com/SasanLabs/SasanCiphers/blob/master/docs/FFunction%20HighLevel%20Diagram.png)
+
+F function is mainly divided into 4 parts:
+```
+1. Expansion Box
+2. XOR with Key
+3. S-Box for converting 48 bits to 32 bits
+4. P-Box
+```
