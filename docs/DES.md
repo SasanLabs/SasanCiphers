@@ -24,3 +24,7 @@ if you look into Fiestle network, you will find that it divides the block into 2
 Many algorithms are based on Fiestle networks.
 
 ### DES High level block diagram ###
+![DES High Level](https://github.com/SasanLabs/SasanCiphers/blob/master/docs/HighLevel%20DES.png)
+
+### F Function Internals ###
+![F Function Internals](https://github.com/SasanLabs/SasanCiphers/blob/master/docs/FFunction%20HighLevel%20Diagram.png)
