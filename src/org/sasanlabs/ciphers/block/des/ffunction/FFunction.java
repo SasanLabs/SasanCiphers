@@ -12,10 +12,6 @@ import org.sasanlabs.ciphers.block.des.exception.DESValidationException;
  */
 public class FFunction {
 
-	// Expansion
-	// XOR
-	// S-Box
-	// P-Box
 	/**
 	 * TODO optimization can be done in this.
 	 * 
@@ -47,15 +43,20 @@ public class FFunction {
 		if (roundKey.length != 6) {
 			throw new DESValidationException("RoundKey Size is expected to be 48 bit or 6 byte");
 		}
+		//Step 1
 		byte[] expandedBlock = this.expansionBox(block);
 		if (expandedBlock.length != 6) {
 			throw new DESValidationException("Expanded Block size is expected to be 48 bit or 6 byte");
 		}
 
-		// As S-BOX converts 6 bits to 4 bits so converting to byte[] to int for easy
-		// computation
+		//Step 2
 		int expandedIntBlock = BitManipulationUtils.byteArrayToInt(expandedBlock, 0);
+		int roundKeyInt =  BitManipulationUtils.byteArrayToInt(roundKey, 0);
+		expandedIntBlock = expandedIntBlock ^ roundKeyInt;
 		
+		//Step 3 S-BOX
+		
+		//Step 4 P-BOX
 	}
 
 	public static void main(String[] a) throws DESValidationException {
