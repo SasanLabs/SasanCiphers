@@ -9,6 +9,8 @@ import java.math.BigInteger;
  */
 public class ExtendedEuclideanAlgorithm {
 
+	
+	
 	public static BigInteger findGCD(BigInteger r0, BigInteger r1) {
 		if(r0.compareTo(r1) < 0) {
 			BigInteger c = r1;
@@ -21,9 +23,24 @@ public class ExtendedEuclideanAlgorithm {
 		return findGCD(r1, r0.mod(r1));
 	}
 	
-	public static BigInteger findInverse(BigInteger r0, BigInteger r1) {
-		//1 = s*r0 + t*r1
-		//r0 = t*r1 + mod(r0,r1)
+	public BigInteger findInverse(BigInteger r0, BigInteger r1) {
+		/**Formula for Extended Euclidean is
+		* s2 = s0 - q*s1
+		* t2 = t0 - q*t1
+		* Derivation of this formula is:
+		* 
+		* r2 = s2*r0 + t2*r1
+		* ri = si*r0 + ti*r1 --> eq1
+		*
+		* r0 = q*r1 + r2
+		* ri = ri-2 - q*ri-1
+		* Substituting ri-2 and ri-1 by eq1
+		* ri = si-2*r0 + ti-2*r1 - q(si-1*r0 + ti-1*r1)
+		* ri = (si-2 - q*si-1)r0 + (ti-2 - q*ti-1)r1
+		* 
+		*/
+		
+		
 		return BigInteger.ONE;
 	}
 	
