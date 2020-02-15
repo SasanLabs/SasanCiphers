@@ -73,6 +73,13 @@ public class TestingDLPComplexity {
 	 * of Modulus ie abelian group so hence it is a complex problem and complexity
 	 * increases multiple folds
 	 * 
+	 * Basic Numbers as per testing in MAC machine: 
+	 * Solution: 1466 Time Taken: 10
+	 * Solution: 91457 Time Taken: 45 
+	 * Solution: 485643 Time Taken: 73 
+	 * Solution: 12576502 Time Taken: 1797 
+	 * Solution: 577102746 Time Taken: 65964
+	 * 
 	 * TODO including new attacks against Diffie Hellman/Discrete Logarithm problem.
 	 * TODO finding some other way to solve this problem (Research need to be done.)
 	 */
